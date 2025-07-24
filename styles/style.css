@@ -18,7 +18,7 @@
   background-color: var(--page-bg, #fff);
   background-image: var(--page-bg-image, linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a));
   background-size: cover;
-  background-attachment: fixed;;
+  background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-variation-settings: 'wght' var(--regular-font-weight, 410);
@@ -95,7 +95,7 @@
 .header__content {
   border: var(--border-style, 2px solid currentColor);
   padding-inline: 16px;
-  padding-block: clamp(7.5rem, 7.2799rem + 0.939vw, 8.125rem);;
+  padding-block: clamp(7.5rem, 7.2799rem + 0.939vw, 8.125rem);
   font-family: var(--accent-font, PressStart2P-Regular), monospace;
   line-height: 1;
   text-align: center;
