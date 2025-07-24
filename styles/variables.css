@@ -1,1 +1,40 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --animation-fill-color: #f00;
+  --text-color: var(--color-black);
+  --border-color: var(--color-black);
+
+  --main-font: inter-variable;
+  --accent-font: pressstart2p-regular;
+  --regular-font-weight: 410;
+  --bold-font-weight: 715;
+  --main-font-size: 18px;
+  --font-size-small: 14px;
+  --border-style: 2px solid var(--border-color);
+
+  --page-bg: var(--color-white);
+  --page-bg-image:
+          repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+          repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+          linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+
+  --card-bg: var(--color-white);
+  --card-heading-font-size: var(--main-font-size);
+  --card-image-wrapper-bg: #22004f;
+  --card-badge-shadow:
+          0 1px 0 var(--color-white, #fff),
+          1px 0 0 var(--color-white, #fff),
+          -1px 0 0 var(--color-white, #fff),
+          0 -1px 0 var(--color-white, #fff);
+
+  --button-font-size: 14px;
+  --button-color: var(--color-white);
+  --button-bg: var(--color-white);
+  --button-border-hover-bg: var(--color-black);
+
+  --heart-contour-color: var(--color-black);
+  --heart-sparks-color: var(--animation-fill-color);
+}
