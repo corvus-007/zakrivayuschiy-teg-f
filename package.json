@@ -1,0 +1,26 @@
+{
+  "name": "zakrivayuschiy-teg-f",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint \"**/*.css\"",
+    "lintfix": "stylelint \"**/*.css\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corvus-007/zakrivayuschiy-teg-f.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/corvus-007/zakrivayuschiy-teg-f/issues"
+  },
+  "homepage": "https://github.com/corvus-007/zakrivayuschiy-teg-f#readme",
+  "devDependencies": {
+    "stylelint": "^16.22.0"
+  }
+}
