@@ -21,7 +21,7 @@
   }
 }
 
-@keyframes fade-out {
+@keyframes fade-in {
 
   from {
     fill-opacity: 0;
