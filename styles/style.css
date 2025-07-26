@@ -12,7 +12,7 @@
 
 .page {
   color: var(--text-color);
-  font-family: var(--main-font, PressStart2P-Regular), sans-serif;
+  font-family: var(--main-font, 'Inter-Variable'), sans-serif;
   font-size: var(--main-font-size, 18px);
   line-height: 1.1667;
   background-color: var(--page-bg, #fff);
@@ -41,7 +41,7 @@
   border-radius: 0;
   padding: 9px 20px;
   color: var(--button-color, #000);
-  font-family: var(--accent-font, PressStart2P-Regular), monospace;
+  font-family: var(--accent-font, 'PressStart2P-Regular'), fantasy;
   font-size: var(--button-font-size, 14px);
   line-height: 1;
   background-color: var(--button-bg, #fff);
@@ -96,7 +96,7 @@
   border: var(--border-style, 2px solid currentColor);
   padding-inline: 16px;
   padding-block: clamp(7.5rem, 7.2799rem + 0.939vw, 8.125rem);
-  font-family: var(--accent-font, PressStart2P-Regular), monospace;
+  font-family: var(--accent-font, 'PressStart2P-Regular'), fantasy;
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
@@ -192,7 +192,7 @@
 .card__badge {
   position: absolute;
   opacity: 0.5;
-  font-family: var(--accent-font, PressStart2P-Regular), monospace;
+  font-family: var(--accent-font, 'PressStart2P-Regular'), fantasy;
   font-size: var(--font-size-small, 14px);
   line-height: 1;
   text-transform: uppercase;
@@ -385,7 +385,7 @@
 }
 
 .floppy-dialog__paragraph {
-  font-family: var(--accent-font, PressStart2P-Regular), monospace;
+  font-family: var(--accent-font, 'PressStart2P-Regular'), fantasy;
   font-size: var(--font-size-small, 14px);
   line-height: 1.5;
   text-transform: uppercase;
