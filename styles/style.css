@@ -286,6 +286,7 @@
 
 .card__icon-button:hover .core {
   fill: var(--color-black);
+  transition-delay: 0s;
 }
 
 .card__icon-button:hover .main-body {
@@ -295,6 +296,7 @@
 
 .card__icon-button:active .core {
   fill: var(--animation-fill-color);
+  transition-delay: 0s;
 }
 
 .card__icon-button:active .main-body {
@@ -339,8 +341,8 @@
 }
 
 .footer__button {
-  padding: 15px 18px;
   flex-direction: column;
+  padding: 15px 18px;
 }
 
 @media (width >= 1440px) {
