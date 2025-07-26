@@ -126,6 +126,17 @@
 /* endregion */
 
 
+/* region Main Content */
+
+.main-content {
+  display: grid;
+  gap: 50px;
+  padding-block-end: 100px;
+}
+
+/* endregion */
+
+
 /* region Cards */
 
 .cards {
@@ -338,24 +349,23 @@
 /* endregion */
 
 
-/* region Footer */
+/* region Button Save Memory */
 
-.footer {
-  display: grid;
-  place-items: center;
-  padding-block-start: 50px;
-  padding-block-end: 100px;
-}
-
-.footer__button {
+.button-save-memory {
   flex-direction: column;
+  justify-self: center;
   padding: 15px 18px;
 }
 
 @media (width >= 1440px) {
 
-  .footer__button {
+  .button-save-memory {
     flex-direction: row;
+  }
+
+  .button-save-memory__icon {
+    inline-size: 21px;
+    block-size: 21px;
   }
 }
 

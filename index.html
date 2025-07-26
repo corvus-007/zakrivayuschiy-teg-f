@@ -20,7 +20,7 @@
         <span class="header__title-text">закрывающий тег</span>
       </h1>
     </header>
-    <main class="content-container">
+    <main class="main-content content-container">
       <ol class="cards">
         <li class="cards__item">
           <article class="card">
@@ -479,17 +479,15 @@
           </article>
         </li>
       </ol>
-    </main>
 
-    <footer class="footer content-container">
       <button
         aria-controls="floppy-dialog"
-        class="footer__button button"
+        class="button-save-memory button"
         onclick="window['floppy-dialog'].showModal()"
         type="button"
       >
         <svg
-          class="button__icon"
+          class="button-save-memory__icon button__icon"
           viewBox="0 0 39 39"
           aria-hidden="true"
         >
@@ -497,26 +495,26 @@
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
+    </main>
 
-      <dialog id="floppy-dialog" class="floppy-dialog">
-        <div class="floppy-dialog__content">
-          <svg
-            class="floppy-dialog__icon"
-            aria-hidden="true"
-          >
-            <use href="./images/svg/floppy.svg#floppy" />
-          </svg>
-          <p class="floppy-dialog__paragraph">Вставьте дискету, чтобы продолжить</p>
-        </div>
-        <button
-          class="floppy-dialog__button button"
-          onclick="window['floppy-dialog'].close()"
-          type="button"
+    <dialog id="floppy-dialog" class="floppy-dialog">
+      <div class="floppy-dialog__content">
+        <svg
+          class="floppy-dialog__icon"
+          aria-hidden="true"
         >
-          <span class="button__text">ок</span>
-        </button>
-      </dialog>
-    </footer>
+          <use href="./images/svg/floppy.svg#floppy" />
+        </svg>
+        <p class="floppy-dialog__paragraph">Вставьте дискету, чтобы продолжить</p>
+      </div>
+      <button
+        class="floppy-dialog__button button"
+        onclick="window['floppy-dialog'].close()"
+        type="button"
+      >
+        <span class="button__text">ок</span>
+      </button>
+    </dialog>
 
     <script src="./scripts/like.js"></script>
   </body>
