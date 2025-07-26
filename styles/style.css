@@ -92,26 +92,26 @@
   padding-block: 100px;
 }
 
-.header__content {
+.header__title {
   border: var(--border-style, 2px solid currentColor);
   padding-inline: 16px;
   padding-block: clamp(7.5rem, 7.2799rem + 0.939vw, 8.125rem);
   font-family: var(--accent-font, 'PressStart2P'), fantasy;
+  font-weight: 400;
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
   background-color: var(--color-white, #fff);
 }
 
-.header__logo {
-  font-weight: 400;
+.header__title-logo {
+  display: block;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-  line-height: 1;
 }
 
-.header__title {
+.header__title-text {
+  display: block;
   margin-block-start: 20px;
-  font-weight: 400;
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 }
 
