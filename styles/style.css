@@ -244,7 +244,9 @@
 }
 
 .card__icon-button {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 2px solid transparent;
   padding: 0;
   background-color: transparent;
@@ -271,16 +273,9 @@
 
 /* region Like Icon */
 
-/* Из-за того что размер svg-иконки (39×36) больше размера кнопки (38×38), используется абсолютное позиционирование.
- С помощью flex для кнопки не удается выровнять иконку по центру.
- */
-
 .like-icon {
-  position: absolute;
+  flex-shrink: 0;
   transform-origin: center;
-  inset-block-start: 50%;
-  inset-inline-start: 50%;
-  translate: -50% -50%;
   block-size: 36px;
   inline-size: 39px;
 }
